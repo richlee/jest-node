@@ -1,0 +1,14 @@
+{
+  "name": "jest-node",
+  "version": "1.0.0",
+  "description": "Exploring unit testing in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rich",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
