@@ -9,6 +9,19 @@
   "author": "Rich",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "jest-html-reporter": "^3.4.1"
+  },
+  "jest": {
+    "collectCoverage" : true,
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "MathOps Test Report"
+        }
+      ]
+    ]
   }
 }
